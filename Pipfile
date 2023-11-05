@@ -1,0 +1,27 @@
+[[source]]
+url = "https://pypi.python.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[dev-packages]
+
+[packages]
+flask = "*"
+flask-sqlalchemy = "*"
+flask-restful = "*"
+flask-marshmallow = "*"
+flask-jwt-extended = "*"
+nose = "*"
+coveralls = "*"
+flask-migrate = "*"
+nose-cov = "*"
+passlib = "*"
+gunicorn = "*"
+bcrypt = "*"
+flask-script = "*"
+"psycopg2" = "*"
+flask-mail = "*"
+flask-cors = "*"
+
+[requires]
+python_version = "3.6"

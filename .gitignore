@@ -1,0 +1,7 @@
+*.swn
+*.swo
+*.swp
+.env
+.coverage
+/migrations
+__pycache__
