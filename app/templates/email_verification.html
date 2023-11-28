@@ -1,0 +1,36 @@
+{% extends "main.html" %}
+{% block title %} Email verification {% endblock %}
+{% block preheader %} Email verification {% endblock %}
+{% block main %}
+    <tr>
+        <td class="wrapper">
+            <table border="0" cellpadding="0" cellspacing="0">
+                <tr>
+                    <td>
+                        <p>Hi there,</p>
+                        <p>Thanks for signing up for Book A Meal. In order to start using the service, please
+                        verify your email address by clicking the button below,
+                        </p>
+                        <table border="0" cellpadding="0" cellspacing="0" class="btn btn-primary">
+                            <tbody>
+                                <tr>
+                                    <td align="left">
+                                        <table border="0" cellpadding="0" cellspacing="0">
+                                            <tbody>
+                                                <tr>
+                                                    <td> <a href="{{ message.link }}" target="_blank">Verify Email</a> </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <p>If you did not sign up for Book A Meal, please ignore this email.</p>
+                        <p>With Love from Book A Meal!</p>
+                    </td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+{% endblock %}
